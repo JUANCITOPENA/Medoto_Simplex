@@ -19,11 +19,11 @@
     <title>Metodo Simplex</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <!--Código html enlace-->
-   
-   
+
+
     <!--Boostrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-<!-- 
+    <!-- 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
@@ -65,7 +65,7 @@
 
                 for (j = 1; j <= columnas; j++) {
                     aux += '<input type="text" size="10" value="0" name="' + i + 'X' + j + '" id="' + i + 'X' + j + '" onClick="this.select();" required="required" style="text-align:right;" /> X' + j;
-                    
+
                     if (j != columnas) { aux += ' + '; }
                 }
 
@@ -120,14 +120,14 @@
 
             imprime_tabla();
         }
-            //Llenamos La Tabla con los Datos
+        //Llenamos La Tabla con los Datos
 
         function imprime_tabla() {
 
             var variables = parseInt(document.getElementById('nd').value);
             var restricciones = parseInt(document.getElementById('nr').value);
-            var filas = restricciones + 2; 
-            var columnas = variables + restricciones + 2; 
+            var filas = restricciones + 2;
+            var columnas = variables + restricciones + 2;
             var tabla = '<p>Tabla ' + cont + ':</p><table class="table-responsive">';
 
             for (i = 0; i < filas; i++) {
@@ -261,7 +261,7 @@
 </head>
 
 <body>
-        <a href="javascript:location.reload()"></a>
+    <a href="javascript:location.reload()"></a>
     <div class=container3>
 
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -273,7 +273,15 @@
         </script>
         <form id="form1" name="form1" method="post" action="">
             <p class="titulo"><strong>Método Simplex Con JavaScript<br /> </strong> </p>
-
+            <p class="texto">
+                    El método Simplex es un procedimiento general para resolver problemas de programación lineal.
+                    Desarrollado por George Dantzig en 1947, esta comprobada su extraordinaria eficiencia, y se 
+                    usa en forma rutinaria para resolver problemas grandes en computadoras actuales. 
+                    El método Simplex nos sirve para solucionar problemas en donde debemos de optimizar nuestros 
+                    recursos de la manera más eficiente. Se utiliza para resolver problemas de programación lineal
+                     en los que intervienen tres o más variables. 
+            </p>
+                <hr />
             <p class="univ-O"><strong>(Universidad Dominicana O&M)</strong></p>
             <img class="logo" src="img/logo.png">
 
@@ -281,34 +289,37 @@
             <br />
             <div class="FO">
                 <p class="univ"><strong>
-                <label for="objetivo">Objetivo: </label>    <br />
-                <select name="objetivo" id="objetivo">
-                    <option value="max">Maximizar</option>
-                    <option value="min">Minimizar</option>
-                </select>
-            
-            <br />
-           
-                Variables de decisión:    <br />
-                <label for="nd"></label>
-                <input size="10" name="nd" type="num" id="nd" value="0" onClick="this.select();" required="required" />
-                <br />
-           
-          
-                Restricciones:    <br />
-                <label for="nr"></label>
-                <input  size="10" name="nr" type="number" id="nr" value="0" onClick="this.select();" required="required" />
-                <br />
-                <br />
-                <input class="btn btn-primary" type="button" name="button" id="button" value="OK" onclick="generaMatrizInputs()" />
-            </strong>
-          
-        </p>
+                        <label for="objetivo">Objetivo: </label> <br />
+                        <select name="objetivo" id="objetivo">
+                            <option value="max">Maximizar</option>
+                            <option value="min">Minimizar</option>
+                        </select>
+
+                        <br />
+
+                        Variables de decisión: <br />
+                        <label for="nd"></label>
+                        <input size="10" name="nd" type="num" id="nd" value="0" onClick="this.select();"
+                            required="required" />
+                        <br />
+
+
+                        Restricciones: <br />
+                        <label for="nr"></label>
+                        <input size="10" name="nr" type="number" id="nr" value="0" onClick="this.select();"
+                            required="required" />
+                        <br />
+                        <br />
+                        <input class="btn btn-primary" type="button" name="button" id="button" value="OK"
+                            onclick="generaMatrizInputs()" />
+                    </strong>
+
+                </p>
             </div>
-            <input class="btn btn-success" type="button" value="Actualizar" onclick="location.reload()"/>
+            <input class="btn btn-success" type="button" value="Actualizar" onclick="location.reload()" />
             <br />
             <hr />
-      
+
             <div id="fo"></div>
 
 
@@ -320,7 +331,7 @@
 
         </form>
 
-       
+
 
 
         <p><a href="http://jpvtutoriales.com"><img src="img/JPV.png" width="150" /></a></p>

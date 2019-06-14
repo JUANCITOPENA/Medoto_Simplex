@@ -22,7 +22,18 @@ div.container3 {
     padding-top: 15px;
     padding-bottom: 15px;
     background: black;
+    border-radius: 10px;
     color: white;
+}
+.texto{
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #a4b0be;
+    border-radius: 10px;
+    color: black;
 }
 
 .v-Ong {
@@ -164,6 +175,15 @@ footer {
         background: black;
         color: white;
     }
+    .texto{
+        text-align: justify;
+        font-size: 16px;
+        margin-top: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background: #eccc68;
+        color: black;
+    }
     footer {
         text-align: center;
         font-size: 25px;
@@ -279,6 +299,15 @@ th {
         background: black;
         color: white;
     }
+    .texto{
+        text-align: justify;
+        font-size: 16px;
+        margin-top: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background: #eccc68;
+        color: black;
+    }
     footer {
         text-align: center;
         font-size: 25px;
@@ -327,6 +356,15 @@ th {
         padding-bottom: 10px;
         background: black;
         color: white;
+    }
+    .texto{
+        text-align: justify;
+        font-size: 16px;
+        margin-top: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background:#eccc68;
+        color: black;
     }
     footer {
         text-align: center;
