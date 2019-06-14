@@ -44,9 +44,6 @@ margin-right: auto;
     color: blue;
     padding: 20px;
     margin: 20px;
-    
-
-
 }
 .FO{
     text-align: justify;
@@ -186,19 +183,16 @@ footer{
         color: white;
     }
     
-.univ{
-    text-align: left;
-    font-size: 25px;
-    margin-top: 15px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    color: blue;
-    padding: 20px;
-    margin: 20px;
-    display : inline-flex;
-
-
-}
+    .univ{
+        text-align: center;
+        font-size: 35px;
+        margin-top: 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        color: blue;
+        padding: 20px;
+        margin: 20px;
+    }
 .btn{
     text-align: center;
         font-size: 25px;
