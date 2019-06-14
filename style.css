@@ -1,0 +1,147 @@
+div.container3 {
+    width: 90%;;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}           
+
+
+.logo{
+display:block;
+width: 600px;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background: black;
+    color: white;
+
+}
+
+.univ{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: blue;
+
+}
+.FO{
+    text-align: justify;
+    font-size: 35px;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: blue;
+}
+.Rest{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: blue;
+}
+.VD{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: blue;
+}
+
+#objetivo{
+    text-align: center;
+    font-size: 25px;
+}
+
+#nd{
+    text-align: center;
+    font-size: 25px;
+}
+
+#matriz,
+#tabla,
+#ceros,
+#fo{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+
+table {
+    width: 100%;
+    border: 1px solid #000;
+    background-color: rgb(214, 184, 184);
+ }
+ tr, td {
+    width: 10%;
+    text-align: center;
+    vertical-align: top;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 0.3em;
+    caption-side: bottom;
+  
+ }
+
+th{
+    background-color: yellow;
+}
+
+
+ 
+
+/* 
+ .Encabezado{
+    background: black;
+}
+
+tbody{
+    background: yellow;
+} */
+
+#nr{
+    text-align: center;
+    font-size: 25px;
+}
+
+p{
+    text-align: center;
+    font-size: 25px;
+}
+
+hr{
+    color: red;
+}
+
+.btn{
+    text-align: center;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background: black;
+    color: white;
+}
