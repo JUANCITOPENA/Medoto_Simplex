@@ -1,22 +1,22 @@
 div.container3 {
-    width: 90%;;
+    width: 90%;
+    ;
     height: 100%;
     margin-left: auto;
     margin-right: auto;
-    background:  #ffffff;
+    background: #ffffff;
     border-radius: 2px;
-}           
-
-
-.logo{
-display:block;
-width: 55%;
-height: auto;
-margin-left: auto;
-margin-right: auto;
 }
 
-.titulo,.v-Ong{
+.logo {
+    display: block;
+    width: 55%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo, .v-Ong {
     text-align: center;
     font-size: 35px;
     margin-top: 25px;
@@ -24,9 +24,9 @@ margin-right: auto;
     padding-bottom: 25px;
     background: black;
     color: white;
-
 }
-.v-Ong{
+
+.v-Ong {
     text-align: center;
     font-size: 16px;
     margin-top: 25px;
@@ -35,7 +35,7 @@ margin-right: auto;
     color: blue;
 }
 
-.univ{
+.univ {
     text-align: center;
     font-size: 35px;
     margin-top: 15px;
@@ -45,7 +45,8 @@ margin-right: auto;
     padding: 20px;
     margin: 20px;
 }
-.FO{
+
+.FO {
     text-align: justify;
     font-size: 35px;
     margin-top: 15px;
@@ -53,15 +54,8 @@ margin-right: auto;
     padding-bottom: 15px;
     color: blue;
 }
-.Rest{
-    text-align: center;
-    font-size: 35px;
-    margin-top: 15px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    color: blue;
-}
-.VD{
+
+.Rest {
     text-align: center;
     font-size: 35px;
     margin-top: 15px;
@@ -70,21 +64,27 @@ margin-right: auto;
     color: blue;
 }
 
-#objetivo{
+.VD {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: blue;
+}
+
+#objetivo {
     text-align: center;
     font-size: 15px;
     background: #ffffff;
 }
 
-#nd{
+#nd {
     text-align: center;
     font-size: 25px;
 }
 
-#matriz,
-#tabla,
-#ceros,
-#fo{
+#matriz, #tabla, #ceros, #fo {
     text-align: center;
     font-size: 25px;
     margin-top: 15px;
@@ -92,14 +92,13 @@ margin-right: auto;
     padding-bottom: 15px;
 }
 
-
-
 table {
     width: 100%;
     border: 1px solid #000;
     background-color: rgb(214, 184, 184);
- }
- tr, td {
+}
+
+tr, td {
     width: 10%;
     text-align: center;
     vertical-align: top;
@@ -107,15 +106,11 @@ table {
     border-collapse: collapse;
     padding: 0.3em;
     caption-side: bottom;
-  
- }
-
-th{
-    background-color: yellow;
 }
 
-
- 
+th {
+    background-color: yellow;
+}
 
 /* 
  .Encabezado{
@@ -126,29 +121,28 @@ tbody{
     background: yellow;
 } */
 
-#nr{
+#nr {
     text-align: center;
     font-size: 25px;
 }
 
-p{
+p {
     text-align: center;
     font-size: 25px;
 }
 
-hr{
+hr {
     color: red;
 }
 
-.btn{
+.btn {
     text-align: center;
     font-size: 25px;
     margin-left: 0 auto !important;
     margin-right: 0 auto !important;
 }
 
-
-footer{
+footer {
     text-align: center;
     font-size: 25px;
     margin-top: 25px;
@@ -158,22 +152,11 @@ footer{
     color: white;
 }
 
-
 @media only screen and (max-width: 600px) {
     body {
-      background-color: lightblue;
+        background-color: lightblue;
     }
-    .titulo{
-        text-align: center;
-        font-size: 25px;
-        margin-top: 25px;
-        padding-top: 25px;
-        padding-bottom: 25px;
-        background: black;
-        color: white;
-    
-    }
-    footer{
+    .titulo {
         text-align: center;
         font-size: 25px;
         margin-top: 25px;
@@ -182,8 +165,16 @@ footer{
         background: black;
         color: white;
     }
-    
-    .univ{
+    footer {
+        text-align: center;
+        font-size: 25px;
+        margin-top: 25px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        background: black;
+        color: white;
+    }
+    .univ {
         text-align: center;
         font-size: 35px;
         margin-top: 15px;
@@ -193,13 +184,113 @@ footer{
         padding: 20px;
         margin: 20px;
     }
-.btn{
-    text-align: center;
+    .btn {
+        text-align: center;
         font-size: 25px;
         margin-top: 25px;
         padding-top: 25px;
         padding-bottom: 25px;
         background: black;
         color: white;
+    }
+    input {
+        width: 50%;
+      }
 }
-  }
+
+
+
+
+@media only screen and (max-width: 375px) {
+    body {
+        background-color: lightblue;
+    }
+    .titulo {
+        text-align: center;
+        font-size: 25px;
+        margin-top: 25px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        background: black;
+        color: white;
+    }
+    footer {
+        text-align: center;
+        font-size: 25px;
+        margin-top: 25px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        background: black;
+        color: white;
+    }
+    .univ {
+        text-align: center;
+        font-size: 35px;
+        margin-top: 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        color: blue;
+        padding: 20px;
+        margin: 20px;
+    }
+    .btn {
+        text-align: center;
+        font-size: 25px;
+        margin-top: 25px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        background: black;
+        color: white;
+    }
+    input {
+        width: 50%;
+      }
+}
+
+
+
+@media only screen and (max-width: 412px) {
+    body {
+        background-color: lightblue;
+    }
+    .titulo {
+        text-align: center;
+        font-size: 25px;
+        margin-top: 25px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        background: black;
+        color: white;
+    }
+    footer {
+        text-align: center;
+        font-size: 25px;
+        margin-top: 25px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        background: black;
+        color: white;
+    }
+    .univ {
+        text-align: center;
+        font-size: 35px;
+        margin-top: 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        color: blue;
+        padding: 20px;
+        margin: 20px;
+    }
+    .btn {
+        text-align: center;
+        font-size: 25px;
+        margin-top: 25px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        background: black;
+        color: white;
+    }
+    input {
+        width: 50%;
+      }
+}
